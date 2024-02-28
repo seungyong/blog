@@ -1,0 +1,103 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #cacad6;
+
+  .itemBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+
+    .toolbarBtn {
+      width: 30px;
+      height: 30px;
+      background-size: 26px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+
+    .none {
+      background-color: #ffffff;
+    }
+
+    .active {
+      background-color: #e7e7e7;
+    }
+  }
+
+  .line {
+    width: 1px;
+    height: 25px;
+    margin: 0 15px;
+    background-color: #cacad6;
+  }
+}
+
+.h1 {
+  background-image: url("/editor_h1.svg");
+}
+
+.h2 {
+  background-image: url("/editor_h2.svg");
+}
+
+.h3 {
+  background-image: url("/editor_h3.svg");
+}
+
+.bold {
+  background-image: url("/editor_bold.svg");
+}
+
+.italic {
+  background-image: url("/editor_italic.svg");
+}
+
+.underline {
+  background-image: url("/editor_underline.svg");
+}
+
+.strike {
+  background-image: url("/editor_strike.svg");
+}
+
+.bulleted {
+  background-size: 24px !important;
+  background-image: url("/editor_list_bulleted.svg");
+}
+
+.numbered {
+  background-size: 24px !important;
+  background-image: url("/editor_list_numbered.svg");
+}
+
+.quote {
+  background-image: url("/editor_quote.svg");
+}
+
+.link {
+  background-image: url("/editor_link.svg");
+}
+
+.image {
+  background-image: url("/editor_image.svg");
+}
+
+.youtube {
+  background-image: url("/editor_youtube.svg");
+}
+
+.table {
+  background-image: url("/editor_table.svg");
+}
+
+.newline {
+  background-image: url("/editor_line.svg");
+}
